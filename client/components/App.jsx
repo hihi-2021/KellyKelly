@@ -1,14 +1,24 @@
 import React, { useState } from 'react'
+import { BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom' 
+import Home from './Home'
+import Products from './Products'
+import Tarot from './Tarot'
+import Homeo from './Homeo'
 
 const App = () => {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      {count}
-      <h1>Hello World</h1>
-      <button onClick={() => setCount(count + 1)}>Click</button>
-    </>
+    <Router>
+      <>
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/tarot' element={<Tarot />} />
+          <Route exact path='/product' element={<Products />} />
+          <Route exact path='/homeo' element={<Homeo />} />
+        </Routes>
+      </>
+    </Router>
   )
 }
 
