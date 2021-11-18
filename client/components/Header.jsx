@@ -7,7 +7,7 @@ function Header () {
   return (
     <>
     <nav>
-      <button><Link to={'/'}>Kelly & Kelly</Link></button>
+    <button><Link to={'/'}>Kelly & Kelly</Link></button>
       <Link to={'/tarot'}>Future Troubles?</Link>
       <Link to={'/product'}>Need Stuff?</Link>
       <Link to={'/homeo'}>Feeling Unwell?</Link>
