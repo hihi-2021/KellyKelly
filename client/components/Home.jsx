@@ -24,12 +24,6 @@ function Home () {
   return (
     <>
       <Header />
-      <h1>
-        Hellooo
-        <span />
-        {' '}Kelly & Kelly{' '}
-        <span />
-      </h1>
       <form onSubmit={handleSubmit} >
         <label htmlFor='name' >Enter Name</label>
         <input type='text' name='name' placeholder='please enter your name' value={newName} onChange={handleType} />
