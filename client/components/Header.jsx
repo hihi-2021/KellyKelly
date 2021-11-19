@@ -8,12 +8,10 @@ function Header () {
     <>
     <nav>
       <div className='ribbon'>
-        <button><Link to={'/'}>Kelly & Kelly</Link></button>
-        <Link to={'/tarot'}>Future Troubles?</Link>
-        <Link to={'/product'}>Need Stuff?</Link>
-        <Link to={'/homeo'}>Feeling Unwell?</Link>
-      </div>
-      <div className='header'>
+        <button className="button"><Link to={'/'}>Kelly & Kelly</Link></button>
+        <button className="button"><Link to={'/tarot'}>Future Troubles?</Link></button>
+        <button className="button"><Link to={'/product'}>Need Stuff?</Link></button>
+        <button className="button"><Link to={'/homeo'}>Feeling Unwell?</Link></button>
       </div>
     </nav>
     </>
