@@ -8,6 +8,7 @@
   "license": "ISC",
   "scripts": {
     "client": "webpack serve --config ./client/webpack.config.js --hot",
+    "knex": "knex --knexfile server/db/knexfile.js",
     "dev": "run-p dev:client dev:server",
     "dev:client": "npm run webpack -- --watch",
     "dev:server": "nodemon server",
@@ -41,7 +42,15 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "fortune-teller": "^0.1.2",
+    "knex": "^0.95.14",
+    "nostra": "0.0.7",
+    "pg": "^8.7.1",
+    "react-redux": "^7.2.6",
+    "redux-thunk": "^2.4.0",
+    "sqlite3": "^5.0.2",
+    "superagent": "^5.2.2"
   },
   "devDependencies": {
     "@babel/core": "7.13.1",
