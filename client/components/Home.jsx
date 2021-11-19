@@ -24,7 +24,15 @@ function Home () {
   return (
     <>
       <Header />
-      <form onSubmit={handleSubmit} >
+      <div className='HomeBand'>
+        <p className="HomeBandTitle">
+        Welcome to Kelly and Kelly
+        </p>
+        <p className="HomeBandSubtitle">
+          Professional medicinal and holistic services
+        </p>
+      </div>
+      <form onSubmit={handleSubmit} className="form" >
         <label htmlFor='name' >Enter Name</label>
         <input type='text' name='name' placeholder='please enter your name' value={newName} onChange={handleType} />
         <button>Submit</button>

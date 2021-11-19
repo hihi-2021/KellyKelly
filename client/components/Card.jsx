@@ -15,9 +15,9 @@ const Card = () => {
     console.log(id)
     setFortune(nostra.generate())
 
-    setId(id)
-    const action = drawCard(cardid)
-    dispatch(action)
+    // setId(id)
+    // const action = drawCard(cardid)
+    // dispatch(action)
 
     const location = '/tarotimages/'
     switch(id) {
