@@ -1,0 +1,26 @@
+.tarot {
+  background-color: blueviolet;
+  height: 100%; 
+}
+
+.tarotreading {
+  align-items: center;
+  background-color: blueviolet;
+}
+
+.card {
+  height: 600px;
+  width: 400px;
+}
+
+.tarotContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 20px 20px 20px;
+}
+
+.text {
+  color: beige;
+  text-align: center;
+  margin: 20px 20px 20px 20px;
+}
