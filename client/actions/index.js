@@ -8,3 +8,6 @@ export const enterName = (newName) => {
       name: newName
     }
   }
+
+
+ 

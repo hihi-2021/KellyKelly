@@ -1,0 +1,88 @@
+.productcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+
+}
+.lid{
+
+    height:33%;
+    width: 20%;
+    background-color: black;
+    position: absolute;
+    left:200px;
+}
+.bottle{
+        height:33%;
+        width: 50%;
+        background-color: rgb(175, 11, 11);
+        position: absolute;
+        left:120px;
+        bottom:110px;
+    }
+   .productcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+   }     
+    .shampoo-right {
+    width: 150;
+	height: 30;	
+		border-radius: 50%;
+        background-color: greenyellow;
+        position: absolute;
+        top: 20px;
+
+    }
+    .shampoo-bottom{
+    width: 150px;
+     height: 350px;
+     background: black;
+     top: 110px;
+     position: absolute;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        height: 500px;
+        width: 500px;
+      }
+      .container1 {
+        position: absolute;
+        left: 60px;
+        top: 160px;
+      }
+      .soap1 {
+        height: 150px;
+        width: 200px;
+        border-radius: 25%;
+        background-color: black;
+        position: absolute;
+        z-index: -1;
+      }
+          .heart {
+            position: relative;
+            width: 100px;
+            height: 90px;
+          }
+          .heart:before,
+          .heart:after {
+            position: absolute;
+            content: "";
+            left: 50px;
+            top: 0;
+            width: 50px;
+            height: 80px;
+            background: red;
+            border-radius: 50px 50px 0 0;
+            transform: rotate(-45deg);
+            transform-origin: 0 100%;
+          }
+          .heart:after {
+            left: 0;
+            transform: rotate(45deg);
+            transform-origin: 100% 100%;
+          }
