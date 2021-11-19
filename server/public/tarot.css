@@ -1,0 +1,56 @@
+.tarot {
+  background-color: blueviolet;
+  height: 100%; 
+}
+
+.tarotreading {
+  align-items: center;
+  background-color: blueviolet;
+}
+
+.card {
+  height: 600px;
+  width: 400px;
+}
+
+.tarotContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 20px 20px 20px;
+}
+
+.text {
+  color: beige;
+  text-align: center;
+  margin: 20px 20px 20px 20px;
+}
+
+.ribbon {
+  background-color: beige;
+}
+
+.button {
+  margin: 0px 50px 0px 10px;
+  font-size: 20px;
+}
+
+.HomeBand {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+}
+
+.HomeBandTitle {
+  color: white;
+  font-size: 40px;
+}
+
+.HomeBandSubtitle {
+  color: white;
+  font-size: 30px;
+}
+
+.form {
+  margin-top: 20px;
+  font-size: 20px;
+}
