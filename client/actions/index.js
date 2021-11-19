@@ -10,9 +10,11 @@ export const enterName = (newName) => {
     }
   }
 
+
 export const drawCard = (id) => {
   return {
     type: DRAW_CARD,
     id
   }
 }
+
